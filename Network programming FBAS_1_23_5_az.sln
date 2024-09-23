@@ -49,13 +49,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP 05", "NP 05", "{32B3DEE6
 		index.html = index.html
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 05. HttpClient", "NP 05. HttpClient\NP 05. HttpClient.csproj", "{0FD12F4B-6D92-4D31-ACF7-C8516347AA4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 05. HttpClient", "NP 05. HttpClient\NP 05. HttpClient.csproj", "{0FD12F4B-6D92-4D31-ACF7-C8516347AA4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 05. HttpListener", "NP 05. HttpListener\NP 05. HttpListener.csproj", "{D2181B62-9DF1-487C-95A0-5035FB153833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 05. HttpListener", "NP 05. HttpListener\NP 05. HttpListener.csproj", "{D2181B62-9DF1-487C-95A0-5035FB153833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 05. HttpListener with html", "NP 05. HttpListener with html\NP 05. HttpListener with html.csproj", "{F156AEB9-838C-4715-92B3-9DFE26A64484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 05. HttpListener with html", "NP 05. HttpListener with html\NP 05. HttpListener with html.csproj", "{F156AEB9-838C-4715-92B3-9DFE26A64484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 05. HttpClient example", "NP 05. HttpClient example\NP 05. HttpClient example.csproj", "{FF448849-0F28-4528-BAF2-B4A5E99B76DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 05. HttpClient example", "NP 05. HttpClient example\NP 05. HttpClient example.csproj", "{FF448849-0F28-4528-BAF2-B4A5E99B76DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP 07", "NP 07", "{EB1E063B-ACC5-4F24-A63E-F8E369AF0DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 07. SMTP, IMAP, FTP", "NP 07. SMTP, IMAP, FTP\NP 07. SMTP, IMAP, FTP.csproj", "{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,6 +305,18 @@ Global
 		{FF448849-0F28-4528-BAF2-B4A5E99B76DB}.Release|x64.Build.0 = Release|Any CPU
 		{FF448849-0F28-4528-BAF2-B4A5E99B76DB}.Release|x86.ActiveCfg = Release|Any CPU
 		{FF448849-0F28-4528-BAF2-B4A5E99B76DB}.Release|x86.Build.0 = Release|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Debug|x64.Build.0 = Debug|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Release|x64.ActiveCfg = Release|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Release|x64.Build.0 = Release|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -326,6 +342,7 @@ Global
 		{D2181B62-9DF1-487C-95A0-5035FB153833} = {32B3DEE6-552C-4958-92F5-58603634B16A}
 		{F156AEB9-838C-4715-92B3-9DFE26A64484} = {32B3DEE6-552C-4958-92F5-58603634B16A}
 		{FF448849-0F28-4528-BAF2-B4A5E99B76DB} = {32B3DEE6-552C-4958-92F5-58603634B16A}
+		{D17DFA6A-55DF-4223-A46F-75F4DD9259B8} = {EB1E063B-ACC5-4F24-A63E-F8E369AF0DD7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47DB9905-480D-404B-B1B0-D8F366E43654}
